@@ -1,0 +1,101 @@
+
+body
+{
+  display: flex;
+  height: 550px;
+  width: 800px;
+  border: 1px  solid grey;
+  border-radius: 10px;
+  margin-left: 250px;
+  margin-top: 50px;
+  padding: 0 auto;
+  font-family: sans-serif;
+}
+main
+{
+  display: flex;
+}
+.container
+{
+margin-top: 20px;
+margin-bottom:20px;
+border-left: 50px solid white;
+border-right: 50px solid white;
+}
+.container img
+{
+  height: 60px;
+  width: 90px;
+}
+.container h2
+{
+  font-size: 25px;
+  line-height: 0.5;
+  font-weight: 200;
+  margin: 0px;
+  padding-bottom: 25px;
+}
+.container button
+{
+  border: none;
+  background-color: rgb(38, 120, 227);
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-left: 260px;
+  margin-top: -45px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+}
+.container input
+{
+ width: 160px;
+ padding: 8px;
+ margin:2px;
+ border: 1px solid rgb(200, 197, 197);
+ border-radius: 4px;
+}
+.logo
+{
+  margin-left: -20px;
+}
+.logo img
+{
+  height: 220px;
+  width: 250px;
+  margin-top: 110px;
+  margin-left: 40px;
+}
+.logo h3
+{
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.026em;
+  font-weight: 100;
+  color: gray;
+  margin-left: 25px;
+}
+input:focus
+{
+  border : 1px solid blue ;
+}
+input:valid
+{
+  border: 1px solid blue;
+}
+p
+{
+  display: block;
+}
+[value]
+{
+  text-align: end;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+  pointer-events: none;
+  position: relative;
+}
